@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CF7A5D9A-FD0B-416C-A7E7-471F909D6884</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Unexpected Journey</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5D7AB134CAC7E744620A53F61F6C3F6B921689B9</key>
+		<string>https://github.com/jsitu/Unexpected-Journey.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Unexpected Journey.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5D7AB134CAC7E744620A53F61F6C3F6B921689B9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jsitu/Unexpected-Journey.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5D7AB134CAC7E744620A53F61F6C3F6B921689B9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5D7AB134CAC7E744620A53F61F6C3F6B921689B9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Unexpected%20Journey</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4B7E87361B0D549100AA48C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E87351B0D549100AA48C0 /* AppDelegate.swift */; };
-		4B7E87381B0D549100AA48C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E87371B0D549100AA48C0 /* ViewController.swift */; };
 		4B7E873B1B0D549100AA48C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7E87391B0D549100AA48C0 /* Main.storyboard */; };
 		4B7E873D1B0D549100AA48C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7E873C1B0D549100AA48C0 /* Images.xcassets */; };
 		4B7E87401B0D549100AA48C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7E873E1B0D549100AA48C0 /* LaunchScreen.xib */; };
 		4B7E874C1B0D549100AA48C0 /* Unexpected_JourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E874B1B0D549100AA48C0 /* Unexpected_JourneyTests.swift */; };
+		4B7E87561B0E763700AA48C0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E87551B0E763700AA48C0 /* SignInViewController.swift */; };
+		4BDF6DED1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF6DEC1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		4B7E87301B0D549100AA48C0 /* Unexpected Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unexpected Journey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7E87341B0D549100AA48C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7E87351B0D549100AA48C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B7E87371B0D549100AA48C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B7E873A1B0D549100AA48C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B7E873C1B0D549100AA48C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4B7E873F1B0D549100AA48C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4B7E87451B0D549100AA48C0 /* Unexpected JourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unexpected JourneyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7E874A1B0D549100AA48C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7E874B1B0D549100AA48C0 /* Unexpected_JourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unexpected_JourneyTests.swift; sourceTree = "<group>"; };
+		4B7E87551B0E763700AA48C0 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4BDF6DEC1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFieldWithLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				4B7E87351B0D549100AA48C0 /* AppDelegate.swift */,
-				4B7E87371B0D549100AA48C0 /* ViewController.swift */,
 				4B7E87391B0D549100AA48C0 /* Main.storyboard */,
 				4B7E873C1B0D549100AA48C0 /* Images.xcassets */,
 				4B7E873E1B0D549100AA48C0 /* LaunchScreen.xib */,
 				4B7E87331B0D549100AA48C0 /* Supporting Files */,
+				4B7E87551B0E763700AA48C0 /* SignInViewController.swift */,
+				4BDF6DEC1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift */,
 			);
 			path = "Unexpected Journey";
 			sourceTree = "<group>";
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7E87381B0D549100AA48C0 /* ViewController.swift in Sources */,
 				4B7E87361B0D549100AA48C0 /* AppDelegate.swift in Sources */,
+				4B7E87561B0E763700AA48C0 /* SignInViewController.swift in Sources */,
+				4BDF6DED1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				4B7E87511B0D549100AA48C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B7E87521B0D549100AA48C0 /* Build configuration list for PBXNativeTarget "Unexpected JourneyTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				4B7E87541B0D549100AA48C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
