@@ -17,6 +17,7 @@ class CustomTextFieldWithLogo: UITextField {
         self.layer.borderWidth = 1
     }
     
+    // This is how to add a left padding to the custom input box
     override func textRectForBounds(bounds: CGRect) -> CGRect {
         return CGRectInset(bounds, 50.0, 0)
     }
