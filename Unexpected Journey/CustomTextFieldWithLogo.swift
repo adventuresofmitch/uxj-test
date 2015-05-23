@@ -13,6 +13,8 @@ class CustomTextFieldWithLogo: UITextField {
     // We need to figure out how to initialize this property
     //var leftpadding : CGFloat = 0.0
 
+    var leftPadding : CGFloat = 50.0
+    
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         var borderColor : UIColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1.0)
@@ -22,7 +24,7 @@ class CustomTextFieldWithLogo: UITextField {
     
     // This is how to add a left padding to the custom input box
     override func textRectForBounds(bounds: CGRect) -> CGRect {
-        return CGRectInset(bounds, 50.0, 0)
+        return CGRectInset(bounds, leftPadding, 0)
     }
     
     override func editingRectForBounds(bounds: CGRect) -> CGRect {

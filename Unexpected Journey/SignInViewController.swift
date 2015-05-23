@@ -18,9 +18,11 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
         EmailTextInput.delegate = self
         PasswordTextInput.delegate = self
         //EmailTextInput.leftpadding = 20.0
+        EmailTextInput.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,8 +55,16 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
+        if textField.tag == 1 {
+            EmailTextInput.resignFirstResponder()
+            PasswordTextInput.becomeFirstResponder()
+            return true
+        } else if textField.tag == 2 {
+            PasswordTextInput.resignFirstResponder()
+            return true
+        }
+        
+        return false
     }
 
     /*
