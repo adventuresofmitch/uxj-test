@@ -10,6 +10,7 @@ import UIKit
 
 class CustomTextFieldWithLogo: UITextField {
     
+    // We need to figure out how to initialize this property
     //var leftpadding : CGFloat = 0.0
 
     required init(coder aDecoder: NSCoder) {
