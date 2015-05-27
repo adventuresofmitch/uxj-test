@@ -14,6 +14,7 @@
 		4B7E874C1B0D549100AA48C0 /* Unexpected_JourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E874B1B0D549100AA48C0 /* Unexpected_JourneyTests.swift */; };
 		4B7E87561B0E763700AA48C0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E87551B0E763700AA48C0 /* SignInViewController.swift */; };
 		4BDF6DED1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF6DEC1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift */; };
+		B1FE89E11B1115A30012A231 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FE89E01B1115A30012A231 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		4B7E874B1B0D549100AA48C0 /* Unexpected_JourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unexpected_JourneyTests.swift; sourceTree = "<group>"; };
 		4B7E87551B0E763700AA48C0 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4BDF6DEC1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFieldWithLogo.swift; sourceTree = "<group>"; };
+		B1FE89E01B1115A30012A231 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				4B7E87331B0D549100AA48C0 /* Supporting Files */,
 				4B7E87551B0E763700AA48C0 /* SignInViewController.swift */,
 				4BDF6DEC1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift */,
+				B1FE89E01B1115A30012A231 /* RegisterViewController.swift */,
 			);
 			path = "Unexpected Journey";
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				4B7E87361B0D549100AA48C0 /* AppDelegate.swift in Sources */,
 				4B7E87561B0E763700AA48C0 /* SignInViewController.swift in Sources */,
 				4BDF6DED1B0E7FBA00ABC396 /* CustomTextFieldWithLogo.swift in Sources */,
+				B1FE89E11B1115A30012A231 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

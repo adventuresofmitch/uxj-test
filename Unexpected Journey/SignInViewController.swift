@@ -20,6 +20,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view.
         EmailTextInput.delegate = self
         PasswordTextInput.delegate = self
+        //EmailTextInput.leftpadding = 20.0
     }
 
     override func didReceiveMemoryWarning() {
