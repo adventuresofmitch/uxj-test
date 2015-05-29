@@ -9,17 +9,19 @@
 import UIKit
 
 class CustomTextFieldWithLogo: UITextField {
-    
-    // We need to figure out how to initialize this property
-    //var leftpadding : CGFloat = 0.0
 
     var leftPadding : CGFloat = 50.0
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        
         var borderColor : UIColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1.0)
-        self.layer.borderColor = borderColor.CGColor
-        self.layer.borderWidth = 1
+        var bottomBorder = CALayer()
+        
+        // This add the bottom border (only) to the textfield
+        bottomBorder.frame = CGRectMake(0.0, self.frame.size.height - 1, self.frame.size.width, 1.0);
+        bottomBorder.backgroundColor = borderColor.CGColor
+        self.layer.addSublayer(bottomBorder)
     }
     
     // This is how to add a left padding to the custom input box
