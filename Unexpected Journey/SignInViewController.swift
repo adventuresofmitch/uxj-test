@@ -21,7 +21,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         
         EmailTextInput.delegate = self
         PasswordTextInput.delegate = self
-        //EmailTextInput.leftpadding = 20.0
+
         EmailTextInput.becomeFirstResponder()
     }
 
